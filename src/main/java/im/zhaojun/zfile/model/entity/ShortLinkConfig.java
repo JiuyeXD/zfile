@@ -5,7 +5,7 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity(name = "SHORT_LINK")
+@Entity(name = "short_link")
 @Data
 public class ShortLinkConfig {
 

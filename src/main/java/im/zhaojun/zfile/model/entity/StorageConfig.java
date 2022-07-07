@@ -14,7 +14,7 @@ import javax.persistence.Lob;
 /**
  * @author zhaojun
  */
-@Entity(name = "STORAGE_CONFIG")
+@Entity(name = "storage_config")
 @Data
 @NoArgsConstructor
 public class StorageConfig {

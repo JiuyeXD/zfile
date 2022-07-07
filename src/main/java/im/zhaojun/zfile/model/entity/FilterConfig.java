@@ -10,7 +10,7 @@ import javax.persistence.Id;
 /**
  * @author zhaojun
  */
-@Entity(name = "FILTER_CONFIG")
+@Entity(name = "filter_config")
 @Data
 public class FilterConfig {
 

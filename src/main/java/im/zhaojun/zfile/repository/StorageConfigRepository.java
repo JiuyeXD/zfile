@@ -81,7 +81,7 @@ public interface StorageConfigRepository extends JpaRepository<StorageConfig, In
      *          驱动器新 ID
      */
     @Modifying
-    @Query(value="update STORAGE_CONFIG set driveId = :newId where driveId = :updateId")
+    @Query(value="update storage_config set driveId = :newId where driveId = :updateId")
     void updateDriveId(Integer updateId, Integer newId);
 
 }

@@ -12,7 +12,7 @@ import javax.persistence.Lob;
 /**
  * @author zhaojun
  */
-@Entity(name = "SYSTEM_CONFIG")
+@Entity(name = "system_config")
 @Data
 public class SystemConfig {
 

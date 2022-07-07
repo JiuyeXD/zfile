@@ -39,6 +39,6 @@ public interface FilterConfigRepository extends JpaRepository<FilterConfig, Inte
      *          驱动器新 ID
      */
     @Modifying
-    @Query(value="update FILTER_CONFIG set driveId = :newId where driveId = :updateId")
+    @Query(value="update filter_config set driveId = :newId where driveId = :updateId")
     void updateDriveId(Integer updateId, Integer newId);
 }
